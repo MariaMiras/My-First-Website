@@ -1,25 +1,93 @@
 .my-button-class {
   background-color: darkgrey;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 p.text-align {
   margin-left: 50px;
   margin-right: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: darkolivegreen;
+  color: #fff;
 }
 
 .my-2-column-div {
   display: flex;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
   color: rgb(3, 57, 84);
-  background-image: url("pexels-padrinan-255379.jpg");
+  /* background-image: url("pexels-padrinan-255379.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: fit;
+  background-size: fit; */
+  width: 200px;
+}
+body {
+  background-image: url("photo-1457269449834-928af64c684d.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 16px;
+}
+
+.glass-bg {
+  border: none;
+  box-shadow: inset 1px 1px rgba(255, 255, 255, 0.2),
+    inset -1px -1px rgba(255, 255, 255, 0.1),
+    1px 3px 24px -1px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  background-image: linear-gradient(
+    125deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.2) 70%
+  );
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.my-nav {
+  text-align: right;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* background-image: url("pexels-padrinan-255379.jpg");
+  background-position-x: center;
+  background-size: cover; */
+}
+
+.my-div {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+.form-control {
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
