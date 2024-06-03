@@ -3,57 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Personal Space</title>
+    <title>Here is my title</title>
+    <link rel="stylesheet" href="home.css" />
   </head>
-  <header>
+
+  <header
+    style="
+      text-align: right;
+      color: peru;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-image: url('pexels-padrinan-255379.jpg');
+    "
+  >
     <nav>
-      <a href="home">home</a>
-      <a href="about me">about me</a>
-      <a href="contact us">contact us</a>
+      <a href="home">home</a>| <a href="about me">about me</a>|
+      <a href="contact us">contact us</a>|
       <a href="message">message us</a>
     </nav>
   </header>
   <br />
   <body>
-    <h1>Maria Fe's Personal Space</h1>
-    <p>
-      Welcome to my <em>eme-eme</em> space where I practice some learnings in
-      html.
+    <h1
+      style="
+        color: rgb(69, 8, 127);
+        font-style: oblique;
+        text-shadow: 2px 2px #d4c0c0;
+        text-align: center;
+      "
+    >
+      Maria Fe's Personal Space
+    </h1>
+    <hr
+      style="
+        height: 5px;
+        border-width: 0;
+        color: rgb(42, 32, 228);
+        background-color: rgb(124, 105, 192);
+      "
+    />
+    <p
+      style="
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkslategrey;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+      "
+    >
+      <span>
+        Hello! I'm an aspiring Web or Full stock with a passion for creating
+        efficient web applications. Inspired by my husband and driven by the
+        belief that time is gold, I strive to make the most of every moment.
+        Whether I become a back-end or full-stack developer first, I'm dedicated
+        to learning and delivering high-quality work.
+      </span>
     </p>
     <main>
-      <h2>About me</h2>
-      <img
-        src="434837133_396186476600266_6353183112359846601_n.jpg"
-        alt=""
-        height="200px"
-        width="220px"
-      />
-      <section>
-        <p>
-          <span
-            >Hi! there! I’m <em>Maria Fe De Juan.</em> Let's skip the age
-            talk—I'm timeless! I'm an <br />
-            aspiring Backend or Full-Stack Developer, currently on an exciting
-            journey towards <br />
-            earning a BSIT degree. Before diving into the world of tech, I spent
-            8 years ensuring safety as a <br />
-            Construction Safety Officer. Now, I’m ready to build and innovate in
-            the tech industry!
-          </span>
-        </p>
-      </section>
+      <h2
+        style="
+          color: rgb(91, 19, 146);
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+        "
+      >
+        About me
+      </h2>
 
       <section>
-        <h3>Contact Us</h3>
-
-        <b>
-          <p><a href="address">Calamba City, Laguna</a></p>
-          <p><a href="mailto:mdejuan1991@gmail.com">Send e-mail</a></p>
-          <p><a href="contact no.">+6390-000-0000</a></p>
-          <p><a href="website">My Website</a></p>
-        </b>
+        <div class="my-2-column-div">
+          <p class="text-align">
+            Currently on an exciting journey towards earning a BSIT degree.
+            Before diving into tech, I spent 8 years ensuring safety as a
+            Construction Safety Officer, honing my attention to detail and
+            problem-solving skills. I'm passionate about building and innovating
+            in the tech industry and pride myself on being flexible and easy to
+            learn. Now, I'm taking these steps to create a better living for
+            myself and my family. In my free time, I enjoy browsing the
+            internet, traveling to new places, watching movies, and
+            experimenting with cooking recipes inspired by the web.
+          </p>
+          <img
+            src="434837133_396186476600266_6353183112359846601_n.jpg"
+            alt=""
+            height="200px"
+            width="220px"
+            class="my-pretty-pic"
+            style="margin-right: 19px"
+          />
+        </div>
       </section>
+      <div>
+        <section>
+          <div class="contact-us">
+            <h3>Contact Us</h3>
 
+            <p><a href="address">Calamba City, Laguna</a></p>
+            <p><a href="mailto:mdejuan1991@gmail.com">Send e-mail</a></p>
+            <p><a href="contact no.">+6390-000-0000</a></p>
+            <p><a href="website">My Website</a></p>
+          </div>
+        </section>
+      </div>
       <section>
         <form action="messageus.php">
           <h4>Message me</h4>
@@ -62,7 +113,7 @@
           <!-- <input type="text" id="message" required /> -->
           <textarea name="messafe" id="message" cols="40" rows="10"></textarea>
           <br />
-          <button submit="submit">Submit</button>
+          <button submit="submit" class="my-button-class">Submit</button>
         </form>
       </section>
     </main>
